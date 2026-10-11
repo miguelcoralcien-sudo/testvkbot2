@@ -19,7 +19,7 @@ longpoll = VkBotLongPoll(vk_session, VK_GROUP_ID)
 vk = vk_session.get_api()
 
 client = OpenAI(
-    base_url="https://api.proxyapi.ru/openai/v1",
+base_url="https://api.proxyapi.ru/v1",
     api_key=PROXYAPI_KEY
 )
 
